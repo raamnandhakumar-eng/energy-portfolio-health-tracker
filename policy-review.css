@@ -1,0 +1,18 @@
+.policy-review {scroll-margin-top:24px}
+.policy-metrics {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:22px 0}
+.policy-metrics>div {border-left:3px solid #418ab7;padding-left:14px;display:flex;flex-direction:column;gap:8px}
+.policy-metrics strong {font-size:1.5rem;color:#183453}
+.policy-metrics span,.policy-note {font-size:.875rem;line-height:1.6;color:#52657c}
+.policy-record {background:white;border:1px solid #dce3ec;border-radius:12px;margin:12px 0}
+.policy-record summary {padding:20px;cursor:pointer;display:flex;justify-content:space-between;gap:20px;font-size:1rem}
+.policy-record summary strong,.policy-record summary small {display:block}
+.policy-record summary small {font-size:.875rem;color:#52657c;margin-top:8px}
+.policy-body {padding:0 20px 20px;font-size:1rem;line-height:1.6}
+.policy-body li {margin:8px 0}
+.policy-body li>span {display:inline-block;font-size:.875rem;color:#52657c;margin-left:8px}
+.policy-body h3 {font-size:1rem;margin-top:24px}
+.policy-overview {font-size:.875rem;line-height:1.6}
+.policy-review input,.policy-review select,.policy-review textarea {max-width:100%;font-size:1rem}
+.policy-review a,.policy-overview a {color:#175b93}
+@media(max-width:800px){.policy-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.policy-record summary{flex-direction:column;gap:10px}.policy-review .section-heading{align-items:flex-start;flex-direction:column;gap:12px}}
+@media(max-width:420px){.policy-metrics{grid-template-columns:1fr}}

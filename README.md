@@ -18,6 +18,7 @@ The first screen is designed around a portfolio review rather than a generic das
 - **Leadership brief:** converts the applied portfolio view into an executive-ready situation, exposure, priority handoff, decision request, and next forum.
 - **Scenario review:** stress-tests delivery timing with 0–3 year delays to flagged development assets.
 - **Saved review comparison:** compares health, capacity, COD, and risk changes against a browser-local baseline.
+- **Policy & Regulatory Risk:** four official-source records covering federal generator interconnection, Virginia, Texas and California; portfolio screening links, source dates, browser-local review actions and downloadable policy briefs. [Coverage and mapping rules](docs/POLICY_MODEL.md).
 - **Decision brief export:** downloads a review record with assumptions, actions, evidence requirements, and source lineage.
 
 ## Free AI analyst
